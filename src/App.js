@@ -1,5 +1,5 @@
 import './App.css'
-
+import HistorySearch from './components/HistorySearch'
 // These are the list used in the application. You can move them to any component needed.
 // const initialHistoryList = [
 //   {
@@ -77,6 +77,6 @@ import './App.css'
 // ]
 
 // Replace your code here
-const App = () => <div>Hello World</div>
+const App = () => <HistorySearch />
 
 export default App
